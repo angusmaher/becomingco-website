@@ -1,3 +1,5 @@
+import logo from "../../assets/images/becomingco-logo.png"
+
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden border-t border-[var(--color-border)] bg-[var(--color-bg-soft)]">
@@ -7,9 +9,12 @@ export default function Footer() {
       <div className="site-container px-6 py-14 lg:px-12">
         <div className="grid gap-10 md:grid-cols-[1.1fr_0.8fr_1fr]">
           <div>
-            <h3 className="text-2xl font-semibold tracking-tight text-[var(--color-brand-green)]">
-              Becoming Co.
-            </h3>
+            <img
+              src={logo}
+              alt="Becoming Co. Mental Wellness"
+              className="h-28 w-auto object-contain"
+            />
+
             <p className="mt-4 max-w-md text-sm leading-7 text-[var(--color-text-soft)]">
               Trauma-informed support, recovery-focused care, and education that
               feels human, hopeful and grounded.
