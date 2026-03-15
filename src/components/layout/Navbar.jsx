@@ -76,7 +76,7 @@ export default function Navbar() {
             <a
               href="#contact"
               onClick={() => setMenuOpen(false)}
-               className="inline-flex items-center justify-center rounded-full bg-[var(--color-brand-orange)] px-6 py-3 text-sm font-medium text-white transition hover:-translate-y-0.5 hover:opacity-95"
+               className="inline-flex items-center justify-center rounded-full bg-[var(--color-brand-orange)] px-6 py-3 text-sm font-medium text-white transition hover:-translate-y0.5 hover:opacity-95"
             >
               Enquire now
             </a>
