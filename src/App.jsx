@@ -12,7 +12,7 @@ import Contact from "./components/sections/Contact"
 
 export default function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[#fcfaf7] text-slate-800">
+    <div className="min-h-screen overflow-x-hidden bg-[var(--color-bg)] text-[var(--color-text)]">
       <Navbar />
 
       <main>
